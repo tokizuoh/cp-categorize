@@ -1,7 +1,7 @@
 div.right-justified {background-color: aliceblue; margin: 20px}
 
 .btn-primary {
-    background: #AC58FA;
+    background: #5858FA;
     color: #FFFFFF;
 }
 
@@ -15,11 +15,6 @@ div.right-justified {background-color: aliceblue; margin: 20px}
 .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,
 .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus {
-    background: #9A2EFE;
+    background: #2E2EFE;
     color: #FFFFFF;
-}
-
-.btn-primary.outline {
-    border: 3px solid #ECCEF5;
-    color: #ECCEF5;
 }
