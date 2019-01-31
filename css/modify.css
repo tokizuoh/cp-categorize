@@ -1,1 +1,6 @@
 div.right-justified {background-color: aliceblue; margin: 20px}
+
+.btn-primary {
+    background: #5F04B4;
+    color: #FFFFFF;
+}
