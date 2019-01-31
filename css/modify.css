@@ -1,6 +1,25 @@
 div.right-justified {background-color: aliceblue; margin: 20px}
 
 .btn-primary {
-    background: #5F04B4;
+    background: #AC58FA;
     color: #FFFFFF;
+}
+
+.btn-primary:hover, .btn-primary:focus, 
+.btn-primary:active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:active.focus,
+.btn-primary.active, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary, 
+.open > .dropdown-toggle.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary:focus, 
+.open > .dropdown-toggle.btn-primary.focus,
+.btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus {
+    background: #9A2EFE;
+    color: #FFFFFF;
+}
+
+.btn-primary.outline {
+    border: 3px solid #ECCEF5;
+    color: #ECCEF5;
 }
