@@ -21,6 +21,7 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#accum_include').load('category/accum.html');
+            $('#accum_include').load('category/unionfind.html');
         });
     </script>
 </head>
@@ -33,6 +34,15 @@
         </p>
         <div class="collapse" id="toggle01">
             <div id="accum_include"></div>
+
+        </div>
+
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#toggle02" role="button" aria-expanded="false" aria-controls="toggle02">UnionFind</a>
+        </p>
+        <div class="collapse" id="toggle02">
+            <div id="unionfind_include"></div>
+
         </div>
 
 </body>
