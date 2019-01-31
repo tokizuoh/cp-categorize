@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = 'ja'>
+
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>tokizo</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- html include -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#accum_include').load('category/accum.html');
+        });
+    </script>
+</head>
+
+<body style="padding-top:60px">
+
+    <div class="container">
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#toggle01" role="button" aria-expanded="false" aria-controls="toggle01">imos法・累積和 ▼</a>
+        </p>
+        <div class="collapse" id="toggle01">
+            <div id="accum_include"></div>
+        </div>
+
+</body>
