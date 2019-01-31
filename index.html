@@ -21,6 +21,7 @@
     <!-- html include -->
     <script type="text/javascript">
         $(document).ready(function() {
+            $('#header_include').load('side/header.html');
             $('#accum_include').load('category/accum.html');
             $('#unionfind_include').load('category/unionfind.html');
             $('#scaling_include').load('category/scaling.html');
@@ -30,6 +31,9 @@
 </head>
 
 <body style="padding-top:60px">
+    
+    <!-- header -->
+    <div id="header_include"></div>
 
     <div class="container">
         <p>
