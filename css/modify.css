@@ -22,6 +22,6 @@ div.right-justified {background-color: aliceblue; margin: 20px}
 h5 {
     padding: 0.25em;/*文字周りの余白*/
     color: #494949;/*文字色*/
-    background: #d9e5ff;/*背景色*/
+    background: linear-gradient(#d9e5ff, #ffffff);/*背景色*/
     border-left: solid 5px #136fff;/*左線（実線 太さ 色）*/
 }
